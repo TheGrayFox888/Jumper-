@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fail{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 225px;
+    left: 46%;
+}
+
+.redfail{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(30, 30, 30);
+    position: absolute;
+    top: 225px;
+    left: 46%;
+}
+
+.tittle{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(200, 200, 200);
+    position: absolute; 
+    top: 100px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    font-size: 125px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(30, 30, 30);
+    
+}
+
+#game {
+    width: 500px;
+    height: 200px;
+    border: 3px solid rgb(200, 200, 200);
+    position: relative;
+}
+
+#igrac {
+    width: 40px;
+    height: 50px;
+    background-image: url('Knight.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 144px;
+    left: 60px;
+    cursor: pointer;
+
+}
+
+#block {
+    width: 40px;
+    height: 50px;
+    background-image: url('orc3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 150px;
+    left: 470px;
+    animation: block 2s infinite;
+    animation-play-state: running; 
+}
+
+@keyframes block {
+    0% { left: 450px; }
+    100% { left: 0px; }
+}
+
+@keyframes igrac {
+    0% { top: 150px; }
+    50% { top: 100px; }
+    100% { top: 150px; }
+}
+
+
+.hardC{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    border-color: none;
+    top: 575px;
+    cursor: pointer;
+
+}
+
+
+
+.hardA{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    border-color: none;
+    top: 670px;
+    cursor: pointer;
+
+}
+
+.hardE{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    border-color: none;
+    width: 200px;
+    top: 720px;
+    cursor: pointer;
+
+}
+
+.hardB{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    border-color: none;
+    top: 620px;
+    cursor: pointer;
+
+}
+
+.hardF{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    border-color: none;
+    top: 720px;
+    cursor: pointer;
+}
+
+   /* dark light mode  */
+
+.dark-mode {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: rgb(30, 30, 30);
+}
+
+
+/* counter */
+
+.counterr{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+
+/* */
+.countdispley{
+    position: absolute;
+    color: aliceblue;
+    top: 33%;
+    left: 50%;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.musica {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    border-color: none;
+    top: 770px;
+    cursor: pointer;
+}
