@@ -1,7 +1,8 @@
-🦖 Dino Game Clone – JavaScript Project
+🦖 Dino Game Clone – Project
 Hello, and thank you for checking out my project!
 
-This is my first attempt at creating a simple browser-based video game using JavaScript, HTML, and CSS. It’s a clone of the classic Google Chrome Dino game, built as a learning exercise to improve my understanding of game loops, collision detection, and basic animations in JavaScript.
+This is a Dino game titled Jumper. The goal is to make it like that Dino game that Microsoft has, but better. Instead of a dinosaur, you have a knight jumping over goblins.
+(Please keep in mind that the game is still in development.)
 
 Tools Used:
 HTML5
